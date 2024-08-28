@@ -31,7 +31,7 @@ function App() {
   const queryClient = new QueryClient()
 
 let routes=createBrowserRouter([{
-  path:"",element:<Layout/>,children:[
+  path:"freshcardproject",element:<Layout/>,children:[
     {index:true,element:<Home/>},
     {path:"login",element:<ProtectAuth><Login/> </ProtectAuth>},
     {path:"register",element:<ProtectAuth><Register/></ProtectAuth> },
