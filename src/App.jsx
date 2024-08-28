@@ -31,22 +31,22 @@ function App() {
   const queryClient = new QueryClient()
 
 let routes=createBrowserRouter([{
-  path:"/Ecom/",element:<Layout/>,children:[
+  path:"/Freshcard/",element:<Layout/>,children:[
     {index:true,element:<Home/>},
-    {path:"/Ecom/login",element:<ProtectAuth><Login/> </ProtectAuth>},
-    {path:"/Ecom/register",element:<ProtectAuth><Register/></ProtectAuth> },
-    {path:"/Ecom/cart",element:<Cart/>},
-    {path:"/Ecom/cat",element:<Categories/> },
-    {path:"/Ecom/brands",element:<Brands/> },
-    {path:"/Ecom/products",element:<Products/>},
-    {path:"/Ecom/allorders",element:<AllOrders/>},
-    {path:"/Ecom/forgotten",element:<ForgottenPassword/>},
-    {path:"/Ecom/checkout",element:<Checkout/>},
-    {path:"/Ecom/resetpassword",element:<ResetPassword/>},
+    {path:"login",element:<ProtectAuth><Login/> </ProtectAuth>},
+    {path:"register",element:<ProtectAuth><Register/></ProtectAuth> },
+    {path:"cart",element:<Cart/>},
+    {path:"cat",element:<Categories/> },
+    {path:"brands",element:<Brands/> },
+    {path:"products",element:<Products/>},
+    {path:"allorders",element:<AllOrders/>},
+    {path:"forgotten",element:<ForgottenPassword/>},
+    {path:"checkout",element:<Checkout/>},
+    {path:"resetpassword",element:<ResetPassword/>},
 
 
-    {path:"/Ecom/productdetails/:id/:category",element:<ProductDetails/>},
-    {path:"/Ecom/*",element:<Notfound/> },
+    {path:"productdetails/:id/:category",element:<ProductDetails/>},
+    {path:"*",element:<Notfound/> },
     
     
   ]
