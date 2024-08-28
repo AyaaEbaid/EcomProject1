@@ -20,7 +20,7 @@ export default function Brands() {
       <div className="container mx-auto mt-20 min-h-screen">
         <div className="flex flex-wrap">
           {brands?.data?.map((brands) => (
-            <div key={brands.id} className=" md:w-1/6">
+            <div key={brands.id} className=" md:w-1/4 lg:w-1/6">
               <div className="p-5">
                 <img src={brands.image} className="w-full" alt="" />
                 <h5 className="text-main text-center">{brands.name}</h5>

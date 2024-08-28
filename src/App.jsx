@@ -59,7 +59,7 @@ let routes=createBrowserRouter([{
      <RouterProvider router={routes}></RouterProvider>
      <ReactQueryDevtools initialIsOpen={false} />
      <Offline>
-      <div className="fixed top-32 left-1 py-2 px-3 rounded-lg bg-red-600 text-white">You are offline</div>
+      <div className="fixed top-48 left-1 py-2 px-3 rounded-lg bg-red-600 text-white">You are offline</div>
 
      </Offline>
      <Toaster/>

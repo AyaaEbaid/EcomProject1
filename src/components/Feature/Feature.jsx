@@ -34,7 +34,7 @@ function getFetureproducts(){
         {isError? <div className="flex justify-center items-center"><p className=" bg-red-300"> Network Error</p></div>:null}
         {isLoading ?<Loader/>: <div className="flex flex-wrap">
           {data?.data.data.map((product) => (
-            <div key={product?.id} className="w-1/6 ">
+            <div key={product?.id} className=" md:w-1/4 lg:w-1/6 ">
               <div className="product p-3">
                <Link to={`/productdetails/${product.id}/${product.category.name}`}>
                

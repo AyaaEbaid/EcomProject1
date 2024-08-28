@@ -39,7 +39,7 @@ const ResetPassword = () => {
   };
 
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto w-[75%]  py-14'>
       <h2  className='font-extrabold text-main py-2 text-center'>Reset Password</h2>
       <form onSubmit={handleSubmit}>
         <label  className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email:</label>

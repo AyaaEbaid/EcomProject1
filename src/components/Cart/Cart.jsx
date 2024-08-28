@@ -40,7 +40,7 @@ export default function Cart() {
   }, []);
   return (
     <>
-      <div className="container min-h-screen mx-auto relative overflow-x-auto shadow-md sm:rounded-lg">
+      <div className="container py-24  min-h-screen mx-auto relative overflow-x-auto shadow-md sm:rounded-lg">
         <div className="text-right">
           <button
             onClick={() => clearCartItem()}
@@ -50,8 +50,8 @@ export default function Cart() {
           </button>
         </div>
 
-        <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-          <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+        <table className="w-full text-sm  text-left rtl:text-right text-gray-500 dark:text-gray-400">
+          <thead className="text-xs  text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
             <tr>
               <th scope="col" className="px-16 py-3">
                 <span className="sr-only">Image</span>

@@ -31,7 +31,7 @@ const [category, setCategory] = useState([])
      <div className="container mx-auto mt-20 min-h-screen">
         <div className="flex flex-wrap">
           {category.map((category) => (
-            <div key={category.id} className=" md:w-1/6">
+            <div key={category.id} className=" md:w-1/4 lg:w-1/6">
               <div className="p-5 w-full">
                 <img src={category.image} className="w-full h-[250px]" alt="" />
                 <h5 className="text-main text-center">{category.name}</h5>

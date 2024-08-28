@@ -27,7 +27,7 @@ const [orders, setOrders] = useState([])
              <div className="container mx-auto mt-20 min-h-screen">
         <div className="flex flex-wrap">
         {orders.map((orders) => (
-            <div key={orders.id} className=" md:w-1/6 p-5"> 
+            <div key={orders.id} className=" md:w-1/4 lg:w-1/6 p-5"> 
                  
                  <img src={orders?.cartItems?.imageCover} className="w-full h-[250px]" alt="" />
                  <h2 className="text-main font-bold  text-center">Name: {orders. user.name}</h2>

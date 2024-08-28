@@ -20,7 +20,7 @@ export default function MainSlider() {
   };
   return (
     <>
-     <div className="container mx-auto my-10">
+     <div className="container  mx-auto my-10">
 <div className="flex">
   <div className="w-3/4">
   <Slider {...settings}>
